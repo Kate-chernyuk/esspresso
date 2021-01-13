@@ -1,0 +1,10 @@
+CREATE TABLE coffee (
+    ID                         PRIMARY KEY
+                               UNIQUE,
+    [название сорта]   STRING,
+    [степень обжарки]  STRING,
+    [молотый/в зернах] STRING,
+    [описание вкуса]   STRING,
+    цена               INTEGER,
+    [объем упаковки]   INTEGER
+);
